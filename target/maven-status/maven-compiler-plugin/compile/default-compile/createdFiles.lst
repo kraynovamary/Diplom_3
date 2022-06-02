@@ -1,0 +1,9 @@
+PageObject/HomePage.class
+PageObject/ProfilePage.class
+com/model/UserRegisterResponse.class
+com/model/Tokens.class
+com/Base.class
+PageObject/RegisterPage.class
+com/UserOperations.class
+PageObject/LoginPage.class
+com/model/User.class
