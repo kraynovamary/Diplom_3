@@ -40,8 +40,8 @@ public class RegistrationTest extends MainTest{
 
         ProfilePage profilePage = page(ProfilePage.class);
         User actualUser = profilePage.getUserAuthorization();
-        Assert.assertEquals("Не верное имя", newUser.getName(), actualUser.getName());
-        Assert.assertEquals("Не верный email", newUser.getEmail().toLowerCase(), actualUser.getEmail());
+        Assert.assertEquals("Неверное имя", newUser.getName(), actualUser.getName());
+        Assert.assertEquals("Неверный email", newUser.getEmail().toLowerCase(), actualUser.getEmail());
     }
 
     @Test
